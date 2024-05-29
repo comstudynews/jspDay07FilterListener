@@ -34,4 +34,8 @@
 		<servlet-name>web</servlet-name>
 		<url-pattern>/web</url-pattern>
 	</servlet-mapping>
+	
+	    <listener>
+        <listener-class>org.comstudy21.web.listener.SessionListener</listener-class>
+    </listener>
 </web-app>
